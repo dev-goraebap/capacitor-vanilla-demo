@@ -1,6 +1,19 @@
-## Capacitor VanillaJs Demo
+# Capacitor VanillaJs Demo
 
-- Do Capacitor: Capacitor 카메라, 로컬저장소, 파일시스템, 공유하기, 햅틱 기능 간단 사용
-- No FE Framework: 바닐라자바스크립트 + 웹컴포넌트 사용
+## Mobile Demo
+![mobile-demo](https://github.com/dev-goraebap/capacitor-vanilla-demo/blob/develop/readme-file/demo-mobile.gif)
 
-레퍼런스: https://ionic.io/blog/create-powerful-native-mobile-apps-with-capacitor-vanillajs
+## Features
+
+### ✔ Do Capacitor
+- 📷 카메라 – 기기 카메라로 사진 촬영
+- 💾 로컬 저장소 – 저장 및 불러오기
+- 📂 파일 시스템 – 파일 저장 및 관리
+- 🔄 공유하기 – 네이티브 공유 기능 사용
+- 📳 햅틱 피드백 – 진동으로 사용자 경험 향상
+  
+### ✔ No FE Framework
+VanillaJS + Web Components로 가볍고 심플한 구조
+
+### 📖 Reference
+https://ionic.io/blog/create-powerful-native-mobile-apps-with-capacitor-vanillajs
