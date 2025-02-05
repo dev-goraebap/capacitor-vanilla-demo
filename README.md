@@ -1,12 +1,6 @@
-## Created with Capacitor Create App
+## Capacitor VanillaJs Demo
 
-This app was created using [`@capacitor/create-app`](https://github.com/ionic-team/create-capacitor-app),
-and comes with a very minimal shell for building an app.
+- Do Capacitor: Capacitor 카메라, 로컬저장소, 파일시스템, 공유하기, 햅틱 기능 간단 사용
+- No FE Framework: 바닐라자바스크립트 + 웹컴포넌트 사용
 
-### Running this example
-
-To run the provided example, you can use `npm start` command.
-
-```bash
-npm start
-```
+레퍼런스: https://ionic.io/blog/create-powerful-native-mobile-apps-with-capacitor-vanillajs
