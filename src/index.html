@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko" dir="ltr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Awesome Capacitor App</title>
+    <meta name="viewport"
+        content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <script type="module"
+        src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js"></script>
+    <script nomodule
+        src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"></script>
+
+    <script src="./js/ui/navbar.js" type="module"></script>
+    <script src="./js/main.js" type="module"></script>
+
+    <link rel="icon" type="image/x-icon" href="./assets/icon/favicon.ico" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta name="theme-color" content="#31d53d" />
+</head>
+
+<body>
+    <ui-navbar>
+        <h1 slot="title">Vanilla😍Capacitor Demo</h1>
+        <div slot="end">
+            <a href="./photos.html">->list</a>
+        </div>
+    </ui-navbar>
+
+    <div id="app-container" class="mt-[60px]">
+        <img id="image" class="p-4" />
+        <div id="upload-box"
+            class="cursor-pointer m-4 flex justify-center items-center rounded-md border-2 border-dashed border-gray-300 py-10 px-4">
+            <div id="image-button" class="text-blue-600">
+                <span>Click Me🎨</span>
+            </div>
+        </div>
+        <div class="m-4">
+            <label for="description" class="block text-sm font-medium leading-6 text-gray-900">
+                Description
+            </label>
+            <textarea id="description" name="description" rows="3"
+                class="w-full p-4 rounded-md text-gray-900 border-2 border-gray-300 placeholder:text-gray-400"
+                placeholder="description here..."></textarea>
+            <button id="save"
+                class="mt-4 w-full rounded bg-blue-600 py-3 px-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600">Save 💾
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

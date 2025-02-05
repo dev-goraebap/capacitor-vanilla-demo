@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'GothicA1';
+  src: url('../assets/fonts/GothicA1-Regular.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'GothicA1';
+  src: url('../assets/fonts/GothicA1-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'GothicA1';
+  src: url('../assets/fonts/GothicA1-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Dank';
+  src: url('../assets/fonts/DankMono-Regular.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Dank';
+  src: url('../assets/fonts/DankMono-Bold.ttf');
+  font-weight: 500;
+}
+
+:root {
+  --nav-bg: theme(colors.blue.600);
+}
+
+body {
+  margin: 0;
+  font-family: Dank, GothicA1, sans-serif;
+}
+

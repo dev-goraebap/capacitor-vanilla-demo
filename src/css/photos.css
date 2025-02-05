@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+ui-photos::part(list) {
+    @apply m-4;
+}
+
+ui-photos::part(btn) {
+    @apply text-center rounded w-auto bg-red-600 py-3 px-2.5 text-sm font-semibold text-white;
+}
+
+ui-photos::part(item) {
+    @apply p-4 shadow-xl;
+}
+
+ui-photos::part(image) {
+    width: 100%;
+}
